@@ -1,6 +1,6 @@
 # Corne Build Guide
 
-![Image of Corne](https://github.com/devpew/corne-build-guide/blob/main/205546608_1132799867211487_330934759526542902_n.jpg)
+![Image of Corne](images/205546608_1132799867211487_330934759526542902_n.jpg)
 
 In this article I'll try to explain how to create wireless, mechanical, split, ortholinear keyboard corne.
 
@@ -12,7 +12,7 @@ On the standard keyboard your wrist and foreams are twisted, so your hand are ti
 
 ## Why do we need ortholinearity?
 
-![ortho](ortho.jpeg)
+![ortho](images/ortho.jpeg)
 
 To answer on this question we need to at the old mechanical typewriters. Because each key was connected to a bar that physically struck the paper. In order to fit multiple rows of keys, the keys were staggered in between each other.
 
@@ -32,7 +32,7 @@ And right now I realized that I want to move my hand even less. I want the numbe
 
 But if you never used split keyboards, probably you should start with something more standard, like Ergodox or Moonlander.
 
-![moon](moon.png)
+![moon](images/moon.png)
 
 ## Why is everyone afraid of layers? 
 
@@ -48,15 +48,15 @@ How do you deal with all these layers?
 
 If you don't like layers, then you have to be consistent and find yourself a keyboard where! "#;%:? * (_ +) Removed from the layer. It will look like this, btw:
 
-![layer1](layer1.png)
+![layer1](images/layer1.png)
 
 Much better. But let's also remove the layer from the F keys. Otherwise, you can get confused in these layers. 
 
-![layer2](layer2.jpg)
+![layer2](images/layer2.jpg)
 
 Wait, we still have a layer with different letters. How can letters be stuffed into layers? Are you out of your mind? Let's take them out of the layer. We don't like layers. 
 
-![layer3](layer3.jpg)
+![layer3](images/layer3.jpg)
 
 We got rid of the layers. But wait, we still have a layer. We have big letters in the layer under the shift. And if we don't like layers, then we have to move the large letters separately. 
 
@@ -82,13 +82,13 @@ wireless (zmk) - https://github.com/devpew/zmk-config
 
 wired (qmk) - https://github.com/devpew/corne-keyboard-layout
 
-![l0](l0.png)
+![l0](images/l0.png)
 
-![l1](l1.png)
+![l1](images/l1.png)
 
-![l2](l2.png)
+![l2](images/l2.png)
 
-![l3](l3.png)
+![l3](images/l3.png)
 
 Buttons with black labels works on a tap. Buttons with red labels will work on hold. Buttons with red background change layouts.
 
@@ -136,7 +136,7 @@ I bought an acrylic case. I really hate acrylic, it's always bad choise. Acrylic
 
 Also, switches do not hold in this case at all. And the problem is not in the switches, since both mx and choc do not hold. You just flip the keyboard and everything falls out.
 
-![IMG_1837](IMG_1837.jpeg)
+![IMG_1837](images/IMG_1837.jpeg)
 
 ### Second bad case
 
@@ -144,11 +144,11 @@ After that, I bought another case. And it is also completely unsuitable for Corn
 
 First, it came with a crack in the middle layer, even though the package itself was well packed. I wrote in support of the store and this middle part was sent to me separately, but another month has passed.
 
-![IMG_2603](IMG_2603.jpeg)
+![IMG_2603](images/IMG_2603.jpeg)
 
 The second problem is that this case has a side around the buttons. And if you use MX switches, then everything will be fine. But it is impossible to press low choc with your thumb, since it clings to this side. The buttons in this case are very much recessed.
 
-![IMG_2605](IMG_2605.jpeg)
+![IMG_2605](images/IMG_2605.jpeg)
 
 By the way, this case is really poorly designed. It seems that the person who designed it never used it. Since here the charging socket is made in the wrong place. And the cable just won't fit through the cable hole. 
 
@@ -209,14 +209,14 @@ There is also a case that I have not tried, but I want to try. If you suddenly k
 There are three options 
 
 * Version 2.0 without hotswap, called "Corne Classic PCB Kit". Cheapest option, it costs only $19 on different stores. I recommend it only to those who know for sure that they will sold their switches. In addition, I did not like that there are ordinary diodes, and not SMDs, it takes longer to sold them. Usually, there are no LEDs in the kit, and the LEDs themselves are not very successful, in the next versions of corne there are another LEDs, with different legs, which are much more convenient to sold. 
-  ![IMG_2606](IMG_2606.jpeg)
+  ![IMG_2606](images/IMG_2606.jpeg)
 
 * Second version is 2.1 "Corne Choc Hotswap PCB kit" or "Corne MX Hotswap PCB Kit". Not a bad option, it costs $24. If you want a thin keyboard with hotswap, this is your only option. But if you want to use normal switches, then I recommend the third option. 
-  ![IMG_1809](IMG_1809.jpeg)
+  ![IMG_1809](images/IMG_1809.jpeg)
 
 * The third option costs $ 36. This is the latest version 3.0.1 at the moment, only MX switches and hot swaps are supported here. I recommend buying it. The kit will already include diodes, hot swaps, LEDs, reset buttons and a TRRS connector. This version has another version of LEDs, which are much easier to sold and the board itself has become one-sided. 
 
-  ![IMG_2591](IMG_2591.jpeg)
+  ![IMG_2591](images/IMG_2591.jpeg)
 
 #### Where to buy plates
 
@@ -226,17 +226,17 @@ But on these services you can't order just one plate. For example, on jlcpcb the
 
 For example, 5pcb of corne 3.0.1 and top and bottom case costs me $51.3 and $22.9 for shipping.  
 
-![ordercorne](ordercorne.png)
+![ordercorne](images/ordercorne.png)
 
 5pcb of jorne will be about the same
 
-![orderjorne](orderjorne.png)
+![orderjorne](images/orderjorne.png)
 
 5pcb of jiran will be the same too
 
-![orderjiran](orderjiran.png)But 5pcb of Sofie will be much cheaper, just $35.7 without shipping
+![orderjiran](images/orderjiran.png)But 5pcb of Sofie will be much cheaper, just $35.7 without shipping
 
-![ordersofie](ordersofie.png)
+![ordersofie](images/ordersofie.png)
 
 ## Assembly
 
@@ -244,19 +244,19 @@ For example, 5pcb of corne 3.0.1 and top and bottom case costs me $51.3 and $22.
 
 You need to sold sockets to the plate. 
 
-![build31](build31.png)
+![build31](images/build31.png)
 
 You may put it and after that, you can secure it all with tape so that it does not move when you solder it. Turn over and gently sold it.
 
-![build32](build32.png)
+![build32](images/build32.png)
 
 After that put your controller to the pins and sold it
 
-![build33](build33.png)
+![build33](images/build33.png)
 
 You will get something like that
 
-![IMG_2587](IMG_2587.jpeg)
+![IMG_2587](images/IMG_2587.jpeg)
 
 Be careful, try to use less solder to avoid shorting the contacts.
 
@@ -266,13 +266,13 @@ In the first version of corne the are two versions of diodes. Standard and SMD. 
 
 When you start to sold them you need to place it by the correct side. This little triangle should looks on the black part of the diode. 
 
-![IMG_2583](IMG_2583.jpeg)
+![IMG_2583](images/IMG_2583.jpeg)
 
 In the latest version of the board, you can only solder diodes from the bottom. But in the second version, you can place them on top or bottom. If you use low-profile choc switches, then they must be soldered from the bottom, if soldered from the top, then you can't install the switches.
 
-![IMG_2591](IMG_2591.jpeg)
+![IMG_2591](images/IMG_2591.jpeg)
 
-![IMG_2609](IMG_2609.jpeg)
+![IMG_2609](images/IMG_2609.jpeg)
 
 ### Sold backlight
 
@@ -288,7 +288,7 @@ Here is the correct scheme of how the chain goes. Backlight leds and button leds
 
 If you have part of the backlight working, then look at the last one that is not light or the previous one, most likely the problem with them. Most likely, you either burned one of them or soldered incorrectly.
 
-![40731604-62cee61e-646c-11e8-865f-829a48fa6be0](40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
+![40731604-62cee61e-646c-11e8-865f-829a48fa6be0](images/40731604-62cee61e-646c-11e8-865f-829a48fa6be0.png)
 
 In general, when assembling, soldering LEDs is the most difficult part. First, you are afraid to burn them. You need to set up a temperature of about 270 degrees and try to do it as fast as possible.
 
@@ -332,15 +332,15 @@ You can choose as a very tiny 110mA battery that will fit under the controller i
 
 Everyone recommends to use 301230 battery, it is 110mA, only 3mm thick, and will last for a week. You can order it on Ali, but keep in mind that batteries are not transported by air, so it will take a couple of months to go to you. Better to go to an electronics store and buy it there. Moreover, the price is practically the same.
 
-![batter](batter.jpg)
+![batter](images/batter.jpg)
 
 Usually, battery manufacturers always cheat a little with thickness. Here is the actual thickness of these batteries. 
 
-![batt2](batt2.jpg)
+![batt2](images/batt2.jpg)
 
 The actual thickness between the bottom and the board in my keyboard about 6mm. The total thickness is one and a half centimeters. And the full height of the keyboard is 3 and a half. But there are the highest SA profile keycaps.
 
-![bbb](bbb.jpg)
+![bbb](images/bbb.jpg)
 
 Left part of the keyboard will brain battery much faster than right part, because right part connects only to the left part, but left part connects to the right one and to the PC.
 
@@ -356,7 +356,7 @@ By weight, the keyboard is also pretty light. For example, my previous IRIS keyb
 
 By the way, some people manage to insert AA or AAA batteries.
 
-![44](44.jpg)
+![44](images/44.jpg)
 
 I bought these holders, but I don't understand how to place them on the keyboard. And the keyboard with these batteries does not look so good.
 
@@ -409,11 +409,11 @@ This is your layout file. You can change something here and commit the changes.
 
 After your commit you can go to the "Actions" tab, you will see that the top action is compiling. This usually takes about two minutes. When everything compiles it will turn green.
 
-![zmk1](zmk1.png)
+![zmk1](images/zmk1.png)
 
 After that you can download your layout
 
-![zmk2](zmk2.png)
+![zmk2](images/zmk2.png)
 
 You will download the archive that you will need to unzip. In this archive you will find two files with firmware. For the left and right half of the keyboard.
 
@@ -425,7 +425,7 @@ If suddenly you have any problems, you can make a reset. This will completely re
 
 Next, select a profile on the keyboard and connect to the computer.
 
-![l3](l3.png)
+![l3](images/l3.png)
 
 In my firmware I put those buttons there. You can choose any bluetooth slot, for example the first one, if suddenly there is something on it, you can press btclt to clear it, after that on your computer you will see a new device "Corne" to which you can connect.
 
