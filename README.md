@@ -96,7 +96,7 @@ I have two main layers - a layer with numbers and a layer with navigation.
 
 If you suddenly think that this is too complex, there are many layers and few keys, you can check this layout https://github.com/manna-harbour/miryoku it's totally crazy.
 
-![miryoku-kle-cover](miryoku-kle-cover.png)
+![miryoku-kle-cover](images/miryoku-kle-cover.png)
 
 In this layout GUI, CTRL, ALT, SHIFT under ASDF and JKL: buttons.
 
@@ -164,6 +164,54 @@ Switches from Zeal PC much better in typing, but choc switches thin like noteboo
 
 ## What do you need to buy 
 
+If you want to build corne you have two options: buy some kit with all the components or order everything by yourself. If you prefer second option you need to order the plates on some service that could print PCB (for example https://jlcpcb.com/order)
+
+And also you need to buy these components:
+
+| Sockets                                        |                                                              |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| Reset Button (need 2)                          | [https://s.click.aliexpress.com/e/_98s0pI](https://s.click.aliexpress.com/e/_98s0pI) or https://s.click.aliexpress.com/e/_Ae76Wo |
+| Pro Micro (Need 2)                             | [https://www.aliexpress.com/item/32849563958.html](https://www.aliexpress.com/item/32849563958.html) |
+| Display (Optional. Need 2)                     | [https://aliexpress.ru/item/32798439084.html](https://aliexpress.ru/item/32798439084.html) |
+| Sockets (square)                               | [https://aliexpress.ru/item/622209657.html](https://aliexpress.ru/item/622209657.html) |
+| Sockets (rounded)                              | https://s.click.aliexpress.com/e/_98s0pI                     |
+| Pins for rounded sockets                       | https://s.click.aliexpress.com/e/_ATiGO0                     |
+| Kailh Hot Swap Sockets (need 42)               | https://s.click.aliexpress.com/e/_Arnkja                     |
+| Kailh low profile Switch (need 42)             | https://s.click.aliexpress.com/e/_9JyNiU                     |
+| Kailh low profile Keycaps (need 42)            | https://s.click.aliexpress.com/e/_9IS4DW                     |
+| TSSR connector (need 2 for wired)              | https://s.click.aliexpress.com/e/_ATavWy                     |
+| SMD Diodes (need 42) You should buy 1N4148W T4 | https://s.click.aliexpress.com/e/_A3O8Dq or https://s.click.aliexpress.com/e/_A9ugRS or https://s.click.aliexpress.com/e/_ALEzpi |
+| Standoff Screw Spacer (need 10)                | https://s.click.aliexpress.com/e/_AmT8DQ                     |
+| Socket Head Cap Screws (need 10)               | https://s.click.aliexpress.com/e/_99WIwo                     |
+| TRRS Cable                                     | https://s.click.aliexpress.com/e/_A26gtI                     |
+
+LED (Optional):
+
+| SK6812 Mini 3535 (for v.2.0 or v.2.1, need 54) | https://s.click.aliexpress.com/e/_A5Dy4G           |
+| ---------------------------------------------- | -------------------------------------------------- |
+| SK6812 Mini 5050 (for v.3.0.1, need 12)        | https://s.click.aliexpress.com/e/_A5Dy4G           |
+| SK6812 MINI-E (for v.3.0.1 need 42)            | https://www.aliexpress.com/item/4000475685852.html |
+
+Also, useful things:
+
+| Soldering station                              | https://s.click.aliexpress.com/e/_AfojQk                     |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| Soldering Iron Tips Repalcement Soldering Bits | https://s.click.aliexpress.com/e/_AkvAW0                     |
+| Transparent Flux                               | https://s.click.aliexpress.com/e/_9QBaRi                     |
+| Stem holder                                    | https://s.click.aliexpress.com/e/_Ad086s                     |
+| Lube for switches                              | https://s.click.aliexpress.com/e/_ADpCDO                     |
+| SA Keycaps                                     | https://s.click.aliexpress.com/e/_AcDx9w                     |
+| 110mA battery                                  | https://aliexpress.ru/item/4000336502739.html                |
+| Zealios V2                                     | https://s.click.aliexpress.com/e/_A48mfw                     |
+| XIAOMI Mijia Wowstick                          | [https://s.click.aliexpress.com/e/_9i4jEB](https://s.click.aliexpress.com/e/_9i4jEB) |
+| Magnetic Screwpad                              | https://s.click.aliexpress.com/e/_A6N17v                     |
+| Filmings                                       | https://s.click.aliexpress.com/e/_9RiYF5                     |
+| Keycap Remover                                 | https://s.click.aliexpress.com/e/_ABFr9V                     |
+| Swithces Remover                               | https://s.click.aliexpress.com/e/_AT4cuP                     |
+| Switch Opener                                  | https://s.click.aliexpress.com/e/_AOCn99                     |
+| Nice cover                                     | https://s.click.aliexpress.com/e/_9HZo4P                     |
+|                                                |                                                              |
+
 ### Sockets
 
 Joric made a really nice article about sockets - https://github.com/joric/nrfmicro/wiki/Sockets
@@ -174,9 +222,15 @@ For example, you will want to make your keyboard wireless. You don't need to sol
 
 I saw three types of sockets. The most common ones are sold in any store. But they are too high.
 
-You can check this sockets in the Joric's article above. I highly recommend to use them.
+![IMG_2849](images/IMG_2849.jpeg)
 
 These sockets looks good, and also you may use 110mAh battery with them, right under the controller. 
+
+rounded sockets - https://www.aliexpress.com/item/32892386779.htm or https://www.aliexpress.com/item/32847384633.html
+
+squared sockets - https://aliexpress.ru/item/622209657.html
+
+pins for rounded sockets - https://s.click.aliexpress.com/e/_AKfdZK
 
 Also, there are sockets even lower, they are called "Mill Max Low Profile Sockets" they are sold in some stores, they are very thin, they come with pins. The problem is that, firstly, it is rather difficult to find PINs separately. Secondly, they are quite expensive, a set of sockets with legs costs about seven dollars.
 
@@ -188,19 +242,67 @@ I recommend to buy the version 3.0.1 with Hotswap, in general in 2021, all keybo
 
 If you want to build a wired version, then you have two options - ProMicro and Elite-C v4. I don't know what technical differences are there, but for us, for users, the difference is that the first with micro usb, the second with type c. You need two controllers. By the way, you can buy one ProMicro and one Elite-C v4 to save some money and they can work well together.
 
+ProMicro - [https://www.aliexpress.com/item/32849563958.html](
+
 If you want to build a wireless one, then there are two options - nice!nano, which has not been on sale for three months now, and nfrmicro1.4
 
 ### Case
 
-I do not recommend to buy the acrylic case, since the switches do not hold in it. It just falls out of him.
+There are many options - Acrylic case, FR4 case, Steel case, Aluminum case, 3D Printed case
+
+#### Acrylic case
+
+I do not recommend to buy the acrylic case, since the switches do not hold in it. It just falls out of him. Also, it is easy to scratch.
 
 I don't recommend a case called "Corne Engineer Keyboard Case" either. It looks extremely poor. Low profile switches do not fit there, since you simply cannot press them at the edges.
 
-Not a bad case made of FR4, it is cheap and does not look very good. But at the same time, it is a fairly durable material, and there are no such terrible sounds like acrylic cases. In general, it's practical option. But, perhaps, from the aesthetic point of view, not everyone will like it.
+![acryliccase](images/acryliccase.jpeg)
 
-Aluminum. The best option in my opinion, I have been using aluminum case on IRIS for half a year, I really like it. There are absolutely no extraneous sounds and resonance from the case. In this case, the keyboard itself becomes quite heavy.
+#### 3D Printed case
 
-There is also a case that I have not tried, but I want to try. If you suddenly know where you can find it, then contact me please. This case is called IML and has been out of stock for several months. It's aluminum on top, and on the bottom it has transparent frosted plastic. It looks more interesting than anything else.
+![3dprintedcase](../../Desktop/corne/2/3dprintedcase.png)
+
+Never used 3d printed cases. If you know how to get it, please ping me.
+
+#### Steel case
+
+I never used steel case for corne, but i used a lot steel case for Iris keyboard. And I really like it. it's really hard to scratch it. It's always cold. I really like that my keyboard is heavy in this case.
+
+And it looks really nice.
+
+![iris](images/iris.jpeg)
+
+What I don't like it steel cases is that you always need to be sure of the distance to the board. 
+
+#### Aluminum case
+
+Aluminum is similar to steel, but lightweight. It is very expensive, because of such a high price I cannot recommend it. 
+
+![IMG_2850](images/IMG_2850.jpeg)
+
+Its second disadvantage is handprints on it, on steel it is almost imperceptible. And these traces are quite difficult to remove, since the aluminum itself is a little "rough". In addition, again, aluminum is not a dielectric and you need to leave a gap between the case and the board and because of this the height of the keyboard will be higher than in the FR4 case. 
+
+#### FR4 case
+
+FR4 is the kind of material that PCBs are made of. And initially it seemed to me that this was not a case at all, but just some kind of temporary solution that can only be used until you find a some nice case. But it's a really nice option. 
+
+![fr4](images/fr4.jpeg)
+
+It doesn't look bad, but it also costs a penny. FR4 lacks those awful sounds like acrylic cases. In general, a fairly cheap and practical option. But, perhaps, from the aesthetic point of view, not everyone likes it. I also like the fact that you can press it as close to the board. 
+
+#### IMK
+
+![imk](../../Desktop/corne/2/imk.jpg)
+
+There is also a case that I have not tried, but I really want to. If you suddenly know where you can find it, then contact me please. This case is called IMK and has been out of stock for several months. The top of this case is metallic, the bottom has a transparent part from Frosted Acrylic. It looks more interesting than any other case. 
+
+### Corne Switch Plate Foam
+
+Some people prefer to use some foam to isolate unnecessary sounds, since sometimes there are extraneous vibrating sounds from the case.
+
+![IMG_2851](images/IMG_2851.jpeg)
+
+For Corne, you can also buy such a foam made of soft material, which is installed between the PCB and the plate. In the case of Corne, this is a pretty useless thing. In fact, after installing it, nothing changes. But if you feel some sounds, you can try it. 
 
 ### Plates
 
@@ -266,6 +368,10 @@ In the first version of corne the are two versions of diodes. Standard and SMD. 
 
 When you start to sold them you need to place it by the correct side. This little triangle should looks on the black part of the diode. 
 
+![diodessmd](images/diodessmd.png)
+
+![IMG_2830](images/IMG_2830.jpeg)
+
 ![IMG_2583](images/IMG_2583.jpeg)
 
 In the latest version of the board, you can only solder diodes from the bottom. But in the second version, you can place them on top or bottom. If you use low-profile choc switches, then they must be soldered from the bottom, if soldered from the top, then you can't install the switches.
@@ -278,9 +384,19 @@ In the latest version of the board, you can only solder diodes from the bottom. 
 
 > If you plan to use your keyboard without wires I highly not recommend to sold LEDs, because they drain a lot of battery.
 
+LEDs are the most difficult to solder, as I said before, I recommend to buy nice soldering iron with a thin tip, a flux pencil. Initially, when I had a soldering iron with a thick sting and dark smelly rosin, I got something like this horror. 
+
+![leds](images/leds.png)
+
 The first and second version of the keyboard use SK6812MINI LEDs, I think this is a bad choice. They has all the contacts on the back side. Because of this, it is very easy to burn them, when soldering and also because of this it is difficult to sold them to the plate.
 
+SK6812 Mini 3535 - https://aliexpress.ru/item/32623583544.html
+
 The third version of the keyboard comes with a different type of LED. There are different LEDs for buttons and for bottom backlight. It is much easier to sold them.
+
+SK6812 Mini 5050 - https://aliexpress.ru/item/32623583544.html
+
+SK6812 MINI-E - https://www.aliexpress.com/item/4000475685852.html
 
 I made a big mistake and spent a lot of time when I sold them. On the keyboard you may see a lot of labels "LED1", "LED2", "LED3" and so on. And it seemed to me that this is the designation for the entire circuit, how they are connected. I thought that I would start soldering from the first one, check it and if everything is ok, then I will continue with the second one. So, I soldered the first one, but nothing worked. I thought it was the firmware, I spent 3 hours on it, but I still did not solve the problem. I re-soldered the LED several times, thinking that I was constantly burning them. Then I just gave up, I decided to just solder all the LEDs and try to deal with it in the future, but for now live without backlighting, but when I soldered all the LEDs, everything worked.
 
