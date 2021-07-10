@@ -260,7 +260,7 @@ I don't recommend a case called "Corne Engineer Keyboard Case" either. It looks 
 
 #### 3D Printed case
 
-![3dprintedcase](../../Desktop/corne/2/3dprintedcase.png)
+![3dprintedcase](images/3dprintedcase.png)
 
 Never used 3d printed cases. If you know how to get it, please ping me.
 
@@ -292,7 +292,7 @@ It doesn't look bad, but it also costs a penny. FR4 lacks those awful sounds lik
 
 #### IMK
 
-![imk](../../Desktop/corne/2/imk.jpg)
+![imk](images/imk.jpg)
 
 There is also a case that I have not tried, but I really want to. If you suddenly know where you can find it, then contact me please. This case is called IMK and has been out of stock for several months. The top of this case is metallic, the bottom has a transparent part from Frosted Acrylic. It looks more interesting than any other case. 
 
